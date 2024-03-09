@@ -14,9 +14,10 @@ export default function App() {
   }; 
 
   const toggleToDoCompletion = (index) => {
-    const updatedTodos = todos.map((todo, i) => {
+    const updatedTodos = todos.map((todo, i) => 
       index === i ? { ...todo, completed: !todo.completed } : todo
-    }); 
+    ); 
+    setTodos(updatedTodos); 
   }
 
   const deleteTodo = (index) => {
