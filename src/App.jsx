@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 
-function App() {
+export default function App() {
   const [todos, setTodos] = useState([]);
   const [inputValue, setInputValues] = useState(''); 
 
@@ -50,4 +50,3 @@ function App() {
   );
 }
 
-export default App

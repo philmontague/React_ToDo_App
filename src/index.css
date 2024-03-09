@@ -1,5 +1,3 @@
-/* index.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 * { 
@@ -61,8 +59,8 @@ form {
     font-size: 1.5rem;
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between; /* Added to align items */
-    align-items: center; /* Added to align items */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .todos li.completed { 
@@ -76,32 +74,31 @@ small {
     text-align: center;
 }
 
-/* Added styles for the delete button */
 .todos li button {
-    background-color: #e63946; /* Button color */
-    color: #fff; /* Text color */
+    background-color: #e63946; 
+    color: #fff;
     border: none;
-    padding: 0.5rem 1rem; /* Adjust button padding */
-    font-size: 1rem; /* Adjust button font size */
+    padding: 0.5rem 1rem; 
+    font-size: 1rem; 
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .todos li button:hover {
-    background-color: #c62828; /* Hover color */
+    background-color: #c62828; 
 }
 
 button[type="submit"] {
-  background-color: #4caf50; /* Button color */
-  color: #fff; /* Text color */
+  background-color: #4caf50; 
+  color: #fff;
   border: none;
-  padding: 0.5rem 1rem; /* Adjust button padding */
-  font-size: 1rem; /* Adjust button font size */
+  padding: 0.5rem 1rem;
+  font-size: 1rem; 
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
-  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; 
+  border-radius: 4px; 
 }
 
 button[type="submit"]:hover {
-  background-color: #45a049; /* Hover color */
+  background-color: #45a049; 
 }
